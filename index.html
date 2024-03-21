@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>counter</h1>
+      <span id="value">0</span>
+      <div class="img-container">
+        <div class="button-container">
+          <button
+            class="btn decrease"
+            id="decrementButton"
+            onclick="this.blur();"
+          >
+            decrease
+          </button>
+          <button
+            title="Press SPACE to reset"
+            class="btn reset"
+            id="resetButton"
+            onclick="this.blur();"
+          >
+            reset
+          </button>
+          <button
+            class="btn increase"
+            id="incrementButton"
+            onclick="this.blur();"
+          >
+            increase
+          </button>
+        </div>
+        <div>
+          <img src="space-key-black.png" alt="png of space" />
+          <p>PRESS ME</p>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
